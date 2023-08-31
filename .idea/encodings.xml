@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/BankingExample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/BankingExample/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CollectionsAssignment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CollectionsAssignment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CollectionsTesting/List/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CollectionsTesting/List/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DeadLockExample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DeadLockExample/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LocalizationExample/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LocalizationExample/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamsAssignment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamsAssignment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamsTesting/QID2.2023/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamsTesting/QID2.2023/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamsTesting/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/StreamsTesting/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew.properties" />
+    <file url="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_TestNew_en_IN.properties" />
+    <file url="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_en.properties" />
+    <file url="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_en_CA.properties" />
+    <file url="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/Test_Test.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew.properties" />
+      <file value="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_en.properties" />
+      <file value="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_en_CA.properties" />
+      <base-name>TestNew</base-name>
+    </custom-resource-bundle>
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew.properties" />
+      <file value="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_en.properties" />
+      <file value="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_en_CA.properties" />
+      <file value="file://$PROJECT_DIR$/LocalizationExample/src/main/java/org/example/TestNew_en_IN.properties" />
+      <base-name>TestNew</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

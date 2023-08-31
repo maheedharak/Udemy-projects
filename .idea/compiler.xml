@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="QID2.2023" />
+        <module name="LocalizationExample" />
+        <module name="CollectionsAssignment" />
+        <module name="StreamsAssignment" />
+        <module name="DeadLockExample" />
+        <module name="BankingExample" />
+        <module name="List" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
