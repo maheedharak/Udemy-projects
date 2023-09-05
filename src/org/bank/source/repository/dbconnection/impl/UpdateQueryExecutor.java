@@ -21,12 +21,16 @@ public class UpdateQueryExecutor implements Executor {
     @Override
     public ResultSet executeWithParams(QueryBuilderParams queryBuilderParams) {
         ResultSet rs = null;
+        PreparedStatement statement = null;
         try(Connection conn = postgresDBConn.getDBConnection()){
             StringBuilder updateQuery = parametersSetter.setParams(queryBuilderParams);
-            PreparedStatement statement = conn.prepareStatement(updateQuery.toString());
+            statement = conn.prepareStatement(updateQuery.toString());
             boolean isExecuted = statement.execute();
         }catch(SQLException ex){
             System.out.println("Exception while updating params is "+ex);
+        }finally{
+            postgresDBConn.closeConnection(null,rs,statement);
+
         }
         return rs;
     }

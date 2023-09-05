@@ -14,6 +14,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.bank.source.repository.dbconnection.Executor.postgresDBConn;
+
 public class BankDataImpl implements CallerInterface {
     private static final Component component = new Component();
 
@@ -22,8 +24,8 @@ public class BankDataImpl implements CallerInterface {
     @Override
     public List<BankData> getData(QueryBuilderParams queryParams) {
         bankDataLst = new ArrayList<>();
-         BankData bankData;
-        try( ResultSet rs = component.setExecutor(new SelectQueryExecutor())
+        BankData bankData;
+        try(ResultSet rs = component.setExecutor(new SelectQueryExecutor())
                     .execute(queryParams)) {
 
             if (rs != null) {

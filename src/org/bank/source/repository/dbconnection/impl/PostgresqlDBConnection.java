@@ -3,9 +3,7 @@ package org.bank.source.repository.dbconnection.impl;
 import org.bank.source.model.Properties;
 import org.bank.source.repository.dbconnection.DatabaseConnection;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Map;
 
 public class PostgresqlDBConnection implements DatabaseConnection {
@@ -31,8 +29,14 @@ public class PostgresqlDBConnection implements DatabaseConnection {
     }
 
     @Override
-    public void closeConnection(Connection connection) {
+    public void closeConnection(Connection connection, ResultSet rs, PreparedStatement statement) {
         try {
+            if(rs != null){
+                rs.close();
+            }
+            if(statement != null){
+                statement.close();
+            }
             if (connection != null) {
                 connection.close();
             }

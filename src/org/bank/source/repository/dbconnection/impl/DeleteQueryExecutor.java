@@ -45,6 +45,9 @@ public class DeleteQueryExecutor implements Executor {
             }
         } catch (SQLException e) {
             System.out.println("Exception while deleting records  with params is " + e);
+        }finally{
+            postgresDBConn.closeConnection(null,rs,null);
+
         }
         return rs;
     }

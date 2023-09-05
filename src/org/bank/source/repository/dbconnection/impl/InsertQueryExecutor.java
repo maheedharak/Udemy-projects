@@ -34,13 +34,8 @@ public class InsertQueryExecutor implements Executor {
         }catch(SQLException ex){
             System.out.println("SQLException while inserting is "+ex);
         }finally{
-            try {
-                if (statement != null) {
-                    statement.close();
-                }
-            }catch (SQLException e) {
-                System.out.println("SQLException is "+e);
-            }
+             postgresDBConn.closeConnection(null,rs,statement);
+
         }
 
         return rs;
